@@ -1,0 +1,176 @@
+@media only print {
+  @page :left {
+    margin: 0.5cm;
+  }
+  @page :right {
+    margin: 0.8cm;
+  }
+  body {
+    font-size: 14px;
+  }
+  #headerWrap,
+  .breadcrumb,
+  #footer,
+  #homeHeaderWrap,
+  #newFooter,
+  .contact,
+  .payLogos,
+  div.planWrap .print a {
+    display: none;
+  }
+  div.planWrap table {
+    border-collapse: collapse;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-spacing: 1;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  div.planWrap table thead {
+    background-color: #ccc;
+    color: #fff;
+  }
+  div.planWrap table thead tr th {
+    padding: 10px;
+    text-align: right;
+    font-weight: normal;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    background-color: #ccc;
+  }
+  div.planWrap table thead tr th:first-child {
+    border-top-right-radius: 0px;
+  }
+  div.planWrap table thead tr th:last-child {
+    border-top-left-radius: 0px;
+  }
+  div.planWrap table tbody tr {
+    border-bottom: 1px solid #a7a7a7;
+  }
+  div.planWrap table tbody tr td {
+    padding: 5px;
+    text-align: center;
+    border-left: 1px solid #a7a7a7;
+  }
+  div.planWrap table tr td[colspan="4"] {
+    background-color: #646464;
+    color: #fff;
+    padding: 10px 0;
+    -webkit-box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.2);
+            box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+  }
+  div.planWrap table tr td[rowspan="3"],
+  div.planWrap table tr td[rowspan="2"] {
+    background-color: #969696;
+    text-align: center;
+  }
+  div.planWrap table td span {
+    font-weight: bold;
+    color: #000;
+  }
+  div.planWrap table td ul {
+    padding: 0;
+    margin: 5px 0;
+  }
+  div.planWrap table td ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+    text-indent: 0;
+  }
+  div.planWrap table tbody tr:last-child td {
+    background-color: #b8b8b8;
+  }
+  a.print,
+  .sadadPay {
+    display: none !important;
+  }
+  .container div.sadaNumber {
+    display: block !important;
+  }
+  .container div.courseInfoDetails {
+    margin: 0 auto;
+  }
+  .container .payPeriod {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto 0px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #000;
+    font-size: 1.5rem;
+    background-color: #d4d4d4;
+    max-width: 95%;
+    -webkit-box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.4);
+            box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.4);
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .container .payPeriod h3 {
+    color: #000;
+    font-size: 1.2rem;
+  }
+  .container .payPeriod p {
+    font-size: 1.1rem;
+  }
+  .container div.sadaNumber {
+    padding: 10px 0;
+    width: 70%;
+    background-color: #cecece;
+    margin: 20px auto;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border-radius: 10px;
+  }
+  .container div.sadaNumber h4 {
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+  }
+  .container div.sadaNumber h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: var(--black-text);
+  }
+  .container div.sadaNumber span.copy {
+    display: none;
+  }
+  .container div.sadaNumber span.copy:hover {
+    cursor: pointer;
+    color: var(--main-white-color);
+  }
+  div.cartWrap h2 {
+    margin-bottom: 5px;
+  }
+  .title2 h2 {
+    margin: 0 auto;
+  }
+  .container div.courseInfoDetails ul.metaCourse {
+    row-gap: 0px;
+    max-width: 95%;
+  }
+  .container div.courseInfoDetails ul.metaCourse li {
+    padding-bottom: 2px;
+    font-size: 1rem;
+  }
+  .totalCost {
+    margin: 10px auto;
+  }
+  .quota,
+  .container .payPeriod,
+  .container i.hint {
+    display: none;
+  }
+  div.cartWrap h3.viewPrintOnly {
+    display: block !important;
+    font-size: 1.5rem;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    border: none;
+    background-color: #fff;
+  }
+}
+/*# sourceMappingURL=print.css.map */

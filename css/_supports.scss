@@ -1,0 +1,8 @@
+@supports (not (-ms-ime-align: auto)) and (position: sticky) {
+  #homeHeaderWrap {
+    position: sticky;
+    top: 0px;
+    left: 0;
+    z-index: 5555;
+  }
+}

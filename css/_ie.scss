@@ -1,0 +1,33 @@
+@supports (-ms-ime-align: auto) {
+  #headerWrap .subHeader .container .innersubHeader .headerLinks ul li {
+    margin-left: 10px;
+  }
+
+  div.notificationList ul li {
+    padding: 12.5px 0;
+  }
+
+  .examItem span.number {
+    margin: 5px;
+  }
+
+  #regFeaturesWrap {
+    min-height: 375px;
+    padding-top: 50px;
+    .regFeatures {
+      padding-top: 120px;
+      min-height: 375px;
+    }
+  }
+
+  #bigDef .overlaySlide ul li {
+    margin: 0 5px 0 10px;
+  }
+  div.profileData ul {
+    padding: 0 20px;
+    li {
+      display: block;
+      width: 100%;
+    }
+  }
+}

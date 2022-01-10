@@ -1,0 +1,25 @@
+{
+  "name": "working-version",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "nodesass": "node-sass -w css/style.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egydes/qyis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/egydes/qyis/issues"
+  },
+  "homepage": "https://github.com/egydes/qyis#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "sass": "^1.45.1"
+  },
+  "dependencies": {}
+}
