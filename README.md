@@ -1,7 +1,7 @@
-# eghtana project 💐
+# eghtana project ⏳ إغتناء
 > this is a staic web project done by : Husien Adel as UI and front end development 
 ## tools & tech used 💻 :
-> adobe xd for UI design, html,sass,css and little vanilla js.
+> adobe xd for UI design, html,sass,css and little vanilla js and a lot of coffee ☕☕
 
 ## node packeges used
 > I used node-sass for compiling sass files and live-server [node-sass link](https://www.npmjs.com/package/node-sass) [live-server] (https://www.npmjs.com/package/live-server)
@@ -14,7 +14,7 @@ npm i live-server -g
 ## site status:
 > the system under-working as I use BEM methology and still working in some updates for optimzing web performance and responsive.
 
-##working list : 
+## working list ✍ : 
 1. web performance
 2. using BEM
 3. optimzming images
