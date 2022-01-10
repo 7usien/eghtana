@@ -6,7 +6,7 @@ UI & Front-end Dev : Husien Adel Ibrahim
 */
 
 @charset "utf-8";
-@import "swiper-bundle";
+// @import "swiper-bundle";
 
 @font-face {
     font-family: "taj";
@@ -2938,7 +2938,7 @@ div.blockStats {
         display: block;
         width: 100%;
         background-color: #32459d;
-        height: 150px;
+        height: 149px;
         clip-path: polygon(0 0,
                 50% 90%,
                 100% 0,
@@ -6185,7 +6185,7 @@ div.pageInner div.sidebar div.courseContent h3 {
     font-family: "taj", Arial, Helvetica, sans-serif;
     font-size: 1.3rem;
     color: #253167;
-    padding: 0 0 20px;
+    padding: 0px 0px 20px;
 }
 
 div.pageInner div.sidebar div.courseContent ul {
@@ -6810,13 +6810,3 @@ div.pageInner div.content div.videoPlayer ul.pagination li a:hover {
 
 }
 
-
-
-
-//ie support
-@import "supports";
-// Resposnive layouts
-@import "print";
-@import "mobile";
-@import "tablet";
-@import "ie";

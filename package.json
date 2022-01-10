@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "nodesass": "node-sass -w css/style.scss css/style.css -w"
+    "nodesass": "node-sass -w --watch --recursive  --output-style compact css/style.scss css/style.css"
   },
   "repository": {
     "type": "git",
