@@ -593,7 +593,7 @@ body {
 #slider {
     width: 100%;
     margin: 0px auto 0;
-    transform: translateY(-1px);
+    transform: translateY(-2px);
     height: 650px;
     background-size: contain;
     background-position: center;
@@ -2938,7 +2938,7 @@ div.blockStats {
         display: block;
         width: 100%;
         background-color: #32459d;
-        height: 149px;
+        height: 152px;
         clip-path: polygon(0 0,
                 50% 90%,
                 100% 0,
@@ -5728,7 +5728,7 @@ div.profiletabs .tabcontent:nth-child(2) {
 
 .hiddenLoader {
     -webkit-animation: loaderFadeOut 3s;
-    animation: loaderFadeOut 3s;
+    animation: loaderFadeOut 1.5s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
