@@ -3,6 +3,9 @@
 ## tools & tech used 💻 :
 > adobe xd for UI design, html,sass,css and little vanilla js and a lot of coffee ☕☕
 
+## Live perview but under progress
+you can watch ☻ [from here](https://7usien.github.io/eghtana/)
+
 ## node packeges used
 > I used node-sass for compiling sass files and live-server [node-sass link](https://www.npmjs.com/package/node-sass) [live-server] (https://www.npmjs.com/package/live-server)
 ```
